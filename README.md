@@ -56,7 +56,7 @@ _example_
 }
 ```
 
-**PS:** `/login` endpoint is handled with a router to allow further customization for that route. _eg: accepting a GET method and serving an HTML_
+**PS:** After logging in, the service attaches the JWT in the authorization response header. `/login` endpoint is handled with a router to allow further customization for that route. _eg: accepting a GET method and serving an HTML_
 
 ---
 
