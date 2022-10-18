@@ -24,6 +24,33 @@ This is a backend assessment/task for SG made using NodeJS, Express, and SQLite 
 
 ---
 
+## Run it
+
+_command:_
+
+```bash
+$ npm run dev
+```
+
+_output:_
+
+```bash
+
+> back_end_assessment@1.0.0 dev
+> nodemon index.js
+
+[nodemon] 2.0.20
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+We are live on http://localhost:8000
+Connected to SQlite database.
+
+```
+
+---
+
 ## Endpoints
 
 ### /register
